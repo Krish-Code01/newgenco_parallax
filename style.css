@@ -104,7 +104,7 @@ a {
   margin-top: -5vh;
   white-space: nowrap;
   font-family: "Righteous", cursive;
-  z-index: -1;
+  z-index: 3;
 }
 #loop h1 {
   color: white;
@@ -350,17 +350,16 @@ a {
   .navbar h2 {
     font-size: 18px;
     color: white;
-    padding: 5px;
+    padding: px;
     z-index: 5;
   }
   .heading {
     margin: 0;
-    padding: 5px;
-    margin-top: -70px;
+    margin-top: -50px;
   }
   .navbar .head {
     z-index: 5;
-    padding: 0px;
+    padding: 10px;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
@@ -414,7 +413,6 @@ a {
     font-size: 0.7rem;
     padding: 12px 10px;
     letter-spacing: 0.5px;
-
     z-index: 4;
     margin-top: 0;
   }
